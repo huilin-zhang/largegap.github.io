@@ -131,10 +131,10 @@ sections:
   #     # Reduce spacing
   #     spacing:
   #       padding: [0, 0, 0, 0]
+#   <style>
+#   h1, h2, p {
+#     margin-top: 0;
+#     margin-bottom: 0;
+#   }
+# </style>
 ---
-<!-- <style>
-  h1, h2, p {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-</style> -->
