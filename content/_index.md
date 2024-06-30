@@ -6,7 +6,8 @@ type: landing
 
 design:
   # Default section spacing
-  spacing: "0rem"
+  # spacing: "0rem"
+  spacing：
     padding: ['0px', '0', '0px', '0']  # Customize the section spacing. Order is top, right, bottom, left.
 
 
