@@ -47,12 +47,6 @@ profiles:
   #   url: https://scholar.google.com/
   # - icon: academicons/orcid
   #   url: https://orcid.org/
-  
-<style>
-  body {
-    color: emerald;
-  }
-</style>
 
 ---
 ## About Me {style="color: emeral"}
