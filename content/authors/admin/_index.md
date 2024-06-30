@@ -1,7 +1,6 @@
 ---
 # Display name
 title: 吳健雄 
-{style="color: emeral"}
 
 # Name pronunciation (optional)
 # name_pronunciation: Chien Shiung Wu
