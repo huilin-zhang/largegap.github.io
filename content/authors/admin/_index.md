@@ -1,6 +1,7 @@
 ---
 # Display name
-title: 吳健雄
+title: 吳健雄 
+{style="color: emeral"}
 
 # Name pronunciation (optional)
 # name_pronunciation: Chien Shiung Wu
@@ -30,7 +31,8 @@ highlight_name: true
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
+  - icon: at-symbol 
+    {style="color: emeral"}
     url: 'mailto:your-email@example.com'
     label: E-mail Me
   # - icon: brands/x
@@ -46,8 +48,14 @@ profiles:
   # - icon: academicons/orcid
   #   url: https://orcid.org/
   
+<style>
+  body {
+    color: emerald;
+  }
+</style>
+
 ---
-## About Me
+## About Me {style="color: emeral"}
 
 Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
 {style="color: black"}
