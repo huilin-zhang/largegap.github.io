@@ -30,7 +30,8 @@ sections:
           size: cover
           position: center
           parallax: false
-      spacing: padding: ['0px', '0', '0px', '0']  # Customize the section spacing. Order is top, right, bottom, left.
+      spacing: 
+        padding: ['0px', '0', '0px', '0']  # Customize the section spacing. Order is top, right, bottom, left.
 
   - block: collection
     content:
@@ -42,7 +43,8 @@ sections:
         exclude_featured: false
     design:
       view: citation
-      spacing: padding: ['0px', '0', '0px', '0']  # Customize the section spacing. Order is top, right, bottom, left.
+      spacing: 
+        padding: ['0px', '0', '0px', '0']  # Customize the section spacing. Order is top, right, bottom, left.
 
 
   - block: collection
@@ -55,7 +57,8 @@ sections:
         exclude_featured: false
     design:
       view: citation
-      spacing: padding: ['0px', '0', '0px', '0']  # Customize the section spacing. Order is top, right, bottom, left.
+      spacing: 
+        padding: ['0px', '0', '0px', '0']  # Customize the section spacing. Order is top, right, bottom, left.
 
 
   # - block: markdown
