@@ -32,7 +32,7 @@ highlight_name: true
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol 
-    {style="color: emeral"}
+     {style="color: emeral"}
     url: 'mailto:your-email@example.com'
     label: E-mail Me
   # - icon: brands/x
@@ -49,7 +49,7 @@ profiles:
   #   url: https://orcid.org/
 
 ---
-## About Me {style="color: emeral"}
+## About Me
 
 Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-{style="color: black"}
+{style="color: emeral"}
