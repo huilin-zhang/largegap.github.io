@@ -16,7 +16,7 @@ sections:
       text: ""
       # Show a call-to-action button under your biography? (optional)
       button:
-        text: Download CV
+        text: CV
         url: uploads/resume.pdf
     design:
       css_class: dark
@@ -30,7 +30,7 @@ sections:
           size: cover
           position: center
           parallax: false
-      spacing: padding: ['20px', '0', '20px', '0']  # Customize the section spacing. Order is top, right, bottom, left.
+      spacing: padding: ['0px', '0', '0px', '0']  # Customize the section spacing. Order is top, right, bottom, left.
 
   - block: collection
     content:
@@ -42,7 +42,7 @@ sections:
         exclude_featured: false
     design:
       view: citation
-      spacing: padding: ['20px', '0', '20px', '0']  # Customize the section spacing. Order is top, right, bottom, left.
+      spacing: padding: ['0px', '0', '0px', '0']  # Customize the section spacing. Order is top, right, bottom, left.
 
 
   - block: collection
@@ -55,7 +55,7 @@ sections:
         exclude_featured: false
     design:
       view: citation
-      spacing: padding: ['20px', '0', '20px', '0']  # Customize the section spacing. Order is top, right, bottom, left.
+      spacing: padding: ['0px', '0', '0px', '0']  # Customize the section spacing. Order is top, right, bottom, left.
 
 
   # - block: markdown
