@@ -19,7 +19,8 @@ sections:
         text: CV
         url: uploads/resume.pdf
     design:
-      css_class: light
+      css_class: light 
+      # set the color theme of the section
       background:
         color: '' #no color
         image:
@@ -36,6 +37,7 @@ sections:
   - block: collection
     content:
       title: JMP
+      <p style="margin-top: -10px;">
       text: ""
       filters:
         folders:
@@ -50,6 +52,7 @@ sections:
   - block: collection
     content:
       title: Work in Progress
+      <p style="margin-top: -10px;">
       text: ""
       filters:
         folders:
