@@ -8,7 +8,7 @@ main:
     url: /
     weight: 1
   - name: Misc.
-    url: /#misc
+    url: misc/
     weight: 2
   # - name: Papers
   #   url: /#papers
