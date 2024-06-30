@@ -6,7 +6,7 @@ type: landing
 
 design:
   # Default section spacing
-  spacing: "rem"
+  spacing: "0rem"
 
 
 sections:
@@ -61,8 +61,8 @@ sections:
         exclude_featured: false
     design:
       view: citation
-      # spacing: 
-      #   padding: ['0px', '0', '0px', '0']  # Customize the section spacing. Order is top, right, bottom, left.
+      spacing: 
+        padding: ['0px', '0', '0px', '0']  # Customize the section spacing. Order is top, right, bottom, left.
 
 
   # - block: markdown
@@ -130,10 +130,11 @@ sections:
   #     # Reduce spacing
   #     spacing:
   #       padding: [0, 0, 0, 0]
-#   <style>
-#   h1, h2, p {
-#     margin-top: 0;
-#     margin-bottom: 0;
-#   }
-# </style>
+
 ---
+  <style>
+  h1, h2, p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+</style>
