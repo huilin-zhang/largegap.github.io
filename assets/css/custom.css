@@ -14,5 +14,5 @@ h1, h2, h3, p {
 /* set the space before the paragraph */
 
 .title-spacing {
-    margin-bottom: 1rem; /* Adjust the value as needed */
+    margin-bottom: 0rem; /* Adjust the value as needed */
 }
