@@ -26,3 +26,5 @@ mounts:
 
 #If you are in China, Hugo can fail to download modules (themes/plugins) from GitHub due to GitHub being blocked. Use proxy to solve the issue.
 proxy: https://goproxy.cn
+
+

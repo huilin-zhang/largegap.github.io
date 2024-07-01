@@ -1,8 +1,0 @@
-/* Adjust the space between tittle and context as needed for your design */
-.block .title {
-    margin-bottom: 0px;  /* Adjust the value as needed */
-}
-
-.block .context {
-    margin-top: 0;
-}
