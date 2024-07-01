@@ -150,20 +150,3 @@ sections:
 
 ---
 
-## test
-
-dfdf
-
----
-  <style>
-  h1, h2, p {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-
-  .section-title, .section-subtitle, .section-text, .block-title {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding: 0;
-  }
-</style>
