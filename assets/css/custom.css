@@ -11,7 +11,12 @@ h1, h2, h3, p {
   }
 /* set the space before the paragraph */
 
-
+body {
+    --heading-spacing: calc(var(--p-spacing) *0); /*阅读模式标题间距，*后面的 1.25 是倍数可以自己调*/
+  }
+  .cm-s-obsidian .cm-line.HyperMD-header {
+    padding-top: 0 !important; /*编辑模式标题间距*/
+  }
   /* <style>
   h1, h2, p {
     margin-bottom: 0;
