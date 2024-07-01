@@ -38,14 +38,20 @@ sections:
   - block: collection
     content:
       title: JMP
-      <p style="margin-top: -10px;">
       text: ""
       filters:
         folders:
           - publication
         exclude_featured: false
     design:
-      view: citation
+      # View.
+      #   1 = List
+      #   2 = Compact
+      #   3 = Card
+      #   4 = Citation
+      #   5 = Showcase
+      #   6 = Masonry
+      view: compact
       spacing: 
         padding: ['0px', '0', '0px', '0']  # Customize the section spacing. Order is top, right, bottom, left.
 
@@ -53,14 +59,13 @@ sections:
   - block: collection
     content:
       title: Work in Progress
-      <p style="margin-top: -10px;">
       text: ""
       filters:
         folders:
           - publication
         exclude_featured: false
     design:
-      view: citation
+      view: compact
       spacing: 
         padding: ['0px', '0', '0px', '0']  # Customize the section spacing. Order is top, right, bottom, left.
 
@@ -130,6 +135,12 @@ sections:
   #     # Reduce spacing
   #     spacing:
   #       padding: [0, 0, 0, 0]
+
+---
+
+## test
+
+dfdf
 
 ---
   <style>
