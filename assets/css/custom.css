@@ -2,6 +2,8 @@
 h1, h2, h3, p {
     margin-bottom: 0  !important;
     margin-top: 0;
+    margin-left:0;
+    margin-right:0;
   }
 
   .section-title, .section-subtitle, .section-text, .block-title {
@@ -10,14 +12,3 @@ h1, h2, h3, p {
     padding: 0;
   }
 /* set the space before the paragraph */
-
-.container .header {
-    padding: 0px;
-    cursor: pointer;
-    font-weight: bold;
-}
-.container .content {
-    display: none;
-    padding : 0px;
-}
-
