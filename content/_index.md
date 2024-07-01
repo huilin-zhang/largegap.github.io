@@ -34,14 +34,12 @@ sections:
           parallax: false
       spacing: 
         padding: ['0px', '0', '0px', '0']  # Customize the section spacing. Order is top, right, bottom, left.
-
   - block: markdown
-    id: section-1
+    # id: section-1
     content:
       title: Section 1
       subtitle: A subtitle
       text: Add any **markdown** formatted content here - text, images, videos, galleries - and even HTML code!
-
   - block: collection
     content:
       title: JMP
