@@ -40,37 +40,47 @@ sections:
       title: Section 1
       subtitle: A subtitle
       text: Add any **markdown** formatted content here - text, images, videos, galleries - and even HTML code!
-  - block: collection
+
+      - block: markdown
+    # id: section-1
     content:
-      title: JMP
-      text: ""
-      filters:
-        folders:
-          - publication
-        exclude_featured: false
-    design:
-      # View.
-      #   1 = List
-      #   2 = Compact
-      #   3 = Card
-      #   4 = Citation
-      #   5 = Showcase
-      #   6 = Masonry
-      view: citation
+      title: Section 1
+      subtitle: A subtitle
+      text: Add any **markdown** formatted content here - text, images, videos, galleries - and even HTML code!
+
+
+
+  # - block: collection
+  #   content:
+  #     title: JMP
+  #     text: ""
+  #     filters:
+  #       folders:
+  #         - publication
+  #       exclude_featured: false
+  #   design:
+  #     # View.
+  #     #   1 = List
+  #     #   2 = Compact
+  #     #   3 = Card
+  #     #   4 = Citation
+  #     #   5 = Showcase
+  #     #   6 = Masonry
+  #     view: citation
       # spacing: 
       #   padding: ['0px', '0', '0px', '0']  # Customize the section spacing. Order is top, right, bottom, left.
 
 
-  - block: collection
-    content:
-      title: Work in Progress
-      text: ""
-      filters:
-        folders:
-          - publication
-        exclude_featured: false
-    design:
-      view: citation
+  # - block: collection
+  #   content:
+  #     title: Work in Progress
+  #     text: ""
+  #     filters:
+  #       folders:
+  #         - publication
+  #       exclude_featured: false
+  #   design:
+  #     view: citation
       # spacing: 
       #   padding: ['0px', '0', '0px', '0']  # Customize the section spacing. Order is top, right, bottom, left.
 
