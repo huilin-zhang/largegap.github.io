@@ -38,13 +38,13 @@ sections:
   - block: markdown
     # id: section-1
     content:
-      subtitle: Section 1
+      title: "Section 1<div style=\"height: 0px;\"></div>"
       text: Add any **markdown** formatted content here - text, images, videos, galleries - and even HTML code!
 
   - block: markdown
     # id: section-1
     content:
-      subtitle: Section 1
+      title: "Section 1<div style=\"height: 0px;\"></div>"
       text: Add any **markdown** formatted content here - text, images, videos, galleries - and even HTML code!
 
   # - block: collection
